@@ -98,13 +98,6 @@ app.get('/weather',(req,res)=>{
 })
 
 
-app.get('/propuesta',(req,res)=>{
-
-    res.render('Propuesta',{
-        tittle: 'Propuesta',
-        name: 'Daniel D'
-    })
-})
 
 app.get('/products',(req,res)=>{
 
@@ -120,7 +113,7 @@ app.get('/products',(req,res)=>{
 })
 
 app.get('/help',(req,res)=>{
-    res.render('HELP',{
+    res.render('help',{
         helpText: 'help page ',
         tittle: 'help',
         name: 'Daniel D'
